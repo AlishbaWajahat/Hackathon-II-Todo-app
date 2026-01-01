@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(if [ -d \"/mnt/d/Alishba/Documents/projects/spec-driven-dev/Hackathon-2/Todo-app/specs/001-todo-core-features/checklists\" ])",
+      "Bash(then echo \"EXISTS\")",
+      "Bash(else echo \"NOT_FOUND\")",
+      "Bash(fi)",
+      "Bash(if [ -f \".gitignore\" ])",
+      "Bash(cat:*)",
+      "Bash(python -m pytest:*)"
+    ]
+  }
+}

@@ -208,3 +208,13 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+## Active Technologies
+- File-based (read `.claude/commands/*.md` files, no database needed) (001-mcp-server-prompts)
+- Python 3.13+ with rich UI enhancements (001-todo-core-features)
+- In-memory (list of dictionaries) (001-todo-core-features)
+- Rich formatting library for enhanced UI (001-todo-core-features)
+- Interactive selection with inquirer library (001-todo-core-features)
+
+## Recent Changes
+- 001-mcp-server-prompts: Added File-based (read `.claude/commands/*.md` files, no database needed)
